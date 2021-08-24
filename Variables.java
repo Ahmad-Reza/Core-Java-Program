@@ -5,7 +5,7 @@ public class Variables{
     // instance variable
     int num2 = 100;  
 
-    void count(){
+   void count(){
     // local variable
        int num3 = 1000; 
     
