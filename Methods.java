@@ -50,6 +50,9 @@
             //// some of code...
         }
 
+    1.) Non-Static Method
+    2.) Static Method
+
 1.) Non-Static Method: 
 - the method which are declared without static keyword 
 - Non-Static Method is also knows as instance method
@@ -67,20 +70,66 @@ a.) Built-in instance method:- instance method which are already exist within th
 
 b.) User defined instance method: instance method are defind by user
 
-2.) static Method
+# defined parameters?
+- parameters are the variables, which are used to carry the data from one method to another method in java stack area.
+            a.) method without parameter
+            b.) method with parameter
+            
+a.) method without parameter: which are declared without parameter.
+        eg: show(), test() etc
 
+b.) method with parameter: which are declared with parameter.
+        eg: show(int a), test(float a, int b) etc
 
  */
 
+import java.util.Scanner;
+
  public class Methods {
 
-    // Non-static/instance Method 
-   public void nonStaticMethod(){
-       System.out.println("Non Static Method");
+    // non-static/instance method
+    // method without parameter
+    void show(){
+        System.out.println("instance method");
+    }
+
+    // method with parameter
+    // method without return type: Do not return any value after method execution
+    void sum(int a, int b){
+        int result = a + b;
+        System.out.println("Result for addition: " + result); // o/p - Result: 100
+    }
+
+    // method with return type: return any value after method execution
+    int sub(int x, int y){
+        int result = x - y;
+        return result;
     }
 
     public static void main(String[] args){
         Methods obj = new Methods();
-        obj.nonStaticMethod();
+        
+        obj.show();
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("enter value for num1: ");
+        int num1 = sc.nextInt(); // Built-in/predefined method
+
+        System.out.print("enter value for num2: ");
+        int num2 = sc.nextInt();
+
+        // in a simple way...
+        int result1 = num1 + num2;
+        System.out.println("Result1: " + result1); // o/p -> Result: 100
+        
+        obj.sum(num1, num2);
+        int result2 = obj.sub(num1, num2);
+        System.out.println("Result for subtraction: " + result2); // o/p -> Result: 10
+
     }
 }
+
+/**
+2.) static Method: 
+
+ */
