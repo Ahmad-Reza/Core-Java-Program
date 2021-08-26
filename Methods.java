@@ -126,6 +126,7 @@ import java.util.Scanner;
         int result2 = obj.sub(num1, num2);
         System.out.println("Result for subtraction: " + result2); // o/p -> Result: 10
 
+
     }
 }
 
