@@ -2,15 +2,15 @@
 > This is the 45 days of java program in which we are going to cover all java programming components and fundamental concepts.
 
 ## *Java Basics*
-> * [Introduction of java](/Ahmad-Reza/Core-Java-Program/blob/master/FirstProgram.java)
-> * JDK Installation & path setting
-> * First java program & syntax explanation
-> * Command Line arguments
+> * [Introduction of java](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/Java_Introduction.png)
+> * [JDK Installation & path setting](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/JDK_Installation.txt)
+> * [First java program & syntax explanation](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/FirstProgram.java)
+> * [Command Line arguments](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/CommandLineArguments.java)
 > * How JVM works & JVM Architecture 
 > * Difference between JDK, JRE and JVM
 > * Java Identifier
 > * Data types in java
-> * Variables in java
+> * Variables in java. [theory](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/Variables.png) [practical](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/Variables.java)
 > * operator in java 
 > * How to take input from console in java
 
