@@ -1,3 +1,5 @@
+package practical_part;
+
 public class Variables{
     // static variable
     static int num1 = 10; 

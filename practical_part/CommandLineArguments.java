@@ -1,3 +1,5 @@
+package practical_part;
+
 import java.util.Scanner;
 
 public class CommandLineArguments {
