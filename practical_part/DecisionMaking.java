@@ -58,5 +58,34 @@ public class DecisionMaking {
             // If number is odd, print it
             System.out.print(j + " ");
         }
+
+        // Using break as a Form of Goto: Java does not have a goto statement because it provides a way to branch in an 
+        //arbitrary and unstructured manner. Java uses label. A Label is use to identifies a block of code.
+
+        boolean t = true;
+  
+        // label first
+        first:
+        {
+            // Illegal statement here as label second is not introduced yet break second;
+            second:
+            {
+                third:
+                {
+                    // Before break
+                    System.out.println("Before the break statement");
+  
+                    // break will take the control out of second label
+                    if (t)
+                        break second;
+                    System.out.println("This won't execute.");
+                }
+                System.out.println("This won't execute.");
+            }
+  
+            // First block
+            System.out.println("This is after second block.");
+        }
+  
     }
 }
