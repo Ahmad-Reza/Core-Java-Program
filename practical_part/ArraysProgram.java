@@ -47,6 +47,35 @@ public class ArraysProgram {
         }
         //o/p: 1 2
         //     3 4
+
+        // Jagged Array: A jagged array is an array of arrays such that member arrays can be of different sizes,
+        // i.e., we can create a 2-D array but with a variable number of columns in each row.
+        int jaggArr[][] = new int[2][];
+ 
+        // Making the above array Jagged
+ 
+        // First row has 3 columns
+        jaggArr[0] = new int[3];
+ 
+        // Second row has 2 columns
+        jaggArr[1] = new int[2];
+ 
+        // Initializing array
+        int count = 0;
+        for (int i = 0; i < jaggArr.length; i++)
+            for (int j = 0; j < jaggArr[i].length; j++)
+            jaggArr[i][j] = count++;
+ 
+        // Displaying the values of 2D Jagged array
+        System.out.println("Contents of 2D Jagged Array");
+        for (int i = 0; i < jaggArr.length; i++) {
+            for (int j = 0; j < jaggArr[i].length; j++)
+                System.out.print(jaggArr[i][j] + " ");
+            System.out.println();
+        }
+        // o/p: Contents of 2D Jagged Array
+        //      0 1 2 
+        //      3 4 
     }
 }
 
