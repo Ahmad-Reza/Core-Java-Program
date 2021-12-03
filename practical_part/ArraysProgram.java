@@ -35,6 +35,18 @@ public class ArraysProgram {
         for (int i = 0; i < std.length; i++)
             System.out.println("Element at " + i + " : " + std[i].roll_no +" "+ std[i].name);
 
+        // 2-D arrays exam..
+        int[][] array = { { 1, 2 }, { 3, 4 } }; //[row][column]
+  
+        for (int i = 0; i < 2; i++) {
+            for (int j = 0; j < 2; j++) {
+                System.out.print(array[i][j] + " ");
+            }
+
+            System.out.println(); 
+        }
+        //o/p: 1 2
+        //     3 4
     }
 }
 
