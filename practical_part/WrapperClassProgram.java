@@ -40,5 +40,21 @@ public class WrapperClassProgram {
         arrayList.add(24);
         int num = arrayList.get(1); // returns an Integer object
         System.out.println(num);
+
+        // Need of Wrapper Classes: One of the major important features provided by wrapper classes is a lot of utility methods. 
+        // Say when we have a float value, and we want to find the integer value of that float
+
+        // In java, in case of floating values they are stored as x = (y)f
+ 
+        // Conversion of float value to int
+        Float floatWrap = Float.valueOf(45.158f);
+ 
+        // Invoking the intValue() method over the stored float value to store
+        int floatToInt = floatWrap.intValue();
+        System.out.println(floatToInt); //o/p: 45
+ 
+        // Convert the binary number to the integer value
+        Integer five = Integer.valueOf("101", 2);
+        System.out.println(five); ////o/p: 5
     }
 }
