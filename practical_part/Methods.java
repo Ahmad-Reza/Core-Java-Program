@@ -113,22 +113,22 @@ import java.util.Scanner;
         
         obj.show();
 
-        Scanner sc = new Scanner(System.in);
-        System.out.print("enter value for num1: ");
-        int num1 = sc.nextInt(); // Built-in/predefined method
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("enter value for num1: ");
+            int num1 = sc.nextInt(); // Built-in/predefined method
 
-        System.out.print("enter value for num2: ");
-        int num2 = sc.nextInt();
+            System.out.print("enter value for num2: ");
+            int num2 = sc.nextInt();
 
-        // in a simple way...
-        int result1 = num1 + num2;
-        System.out.println("Result1: " + result1); // o/p -> Result: 100
+            // in a simple way...
+            int result1 = num1 + num2;
+            System.out.println("Result1: " + result1); // o/p -> Result: 100
+            
+            obj.sum(num1, num2);
+            int result2 = obj.sub(num1, num2);
+            System.out.println("Result for subtraction: " + result2); // o/p -> Result: 10
+        }
         
-        obj.sum(num1, num2);
-        int result2 = obj.sub(num1, num2);
-        System.out.println("Result for subtraction: " + result2); // o/p -> Result: 10
-
-
         // Creating an instance of the class
         Test obj2 = new Test();
          
