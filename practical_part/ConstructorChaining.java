@@ -9,7 +9,7 @@ package practical_part;
  * rather than creating a code for each task in a single constructor we create a separate constructor for
  * each task and make their chain which makes the program more readable. 
  * 
- * Rules of constructor chaining : The this() expression should always be the first line of the constructor.
+ * Rules of constructor chaining : The this() and super() expression should always be the first line of the constructor.
  * There should be at-least be one constructor without the this() keyword.
  * Constructor chaining can be achieved in any order.
  * 
@@ -49,6 +49,14 @@ public class ConstructorChaining {
 
 //Constructor Chaining within same class using super() keyword :
 class Derived extends Base {
+    //Note: When we want certain common resources to be executed with every constructor we can put the code in the init block. 
+    // Init block is always executed before any constructor, whenever a constructor is used for creating a new object.
+    
+    // block to be executed before any constructor.
+    {
+        System.out.println("init block");
+    }
+    
     Derived() {
         System.out.println("No-argument constructor " + "of derived");
     }
