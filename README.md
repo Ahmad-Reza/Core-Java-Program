@@ -40,11 +40,11 @@
 ## *Blocks*
 ## *OOP Concepts*
 > * Classes and Objects in java [theory](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/theory_part/classAndObjects.png) [practical](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/ClassObject.java)
-> * Inheritence in java
-> * Encapsulation in java
+> * [Inheritence in java](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/InheritenceProgram.java)
+> * [Encapsulation in java](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/EncapsulationProgram.java)
 > * Polymorphism in java
->   * Overriding in java
->   * Overloading in java
+>   * [Overriding in java](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/RuntimePolymorphism.java)
+>   * [Overloading in java](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/PolymorphismProgram.java)
 > * Abstraction in java
 ## *Exception Handling*
 ## *Interface & Abstract Classes*
