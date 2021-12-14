@@ -45,8 +45,12 @@
 > * Polymorphism in java
 >   * [Overriding in java](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/RuntimePolymorphism.java)
 >   * [Overloading in java](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/PolymorphismProgram.java)
-> * Abstraction in java
-## *Exception Handling*
+> * [Abstraction in java](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/AbstractionProgram.java)
+## [*Exception Handling*](https://github.com/Ahmad-Reza/Core-Java-Program/commit/09b257e243baa71860f6714cbea89378448e188d)
 ## *Interface & Abstract Classes*
+> * [Interface in java](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/InterfaceProgram.java)
+> * Nested Interface in java
+> * Functional Interface in java
+> * Comparator Interface in java
 
 
