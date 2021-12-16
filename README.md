@@ -9,7 +9,7 @@
 > * [How JVM works](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/JVMWorkingProcess.java) & [JVM Architecture](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/theory_part/JVMArchitecture.png) 
 > * [Difference between JDK, JRE and JVM](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/theory_part/JDK_JRE_JVM.png)
 > * [Java Identifier](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/theory_part/Identifier.png)
-> * Variables in java. [theory](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/theory_part/Variables.png) [practical](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/Variables.java)
+> * [Variables in java, ](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/theory_part/Variables.png) [practical](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/Variables.java)
 > * [Scope of Variables](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/VariablesScope.java) 
 > * [Data types in java](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/theory_part/DataTypes.png)
 > * [operator in java](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/OperatorExamples.java)
@@ -49,8 +49,8 @@
 ## [*Exception Handling*](https://github.com/Ahmad-Reza/Core-Java-Program/commit/09b257e243baa71860f6714cbea89378448e188d)
 ## *Interface & Abstract Classes*
 > * [Interface in java](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/InterfaceProgram.java)
-> * Nested Interface in java
-> * Functional Interface in java
-> * Comparator Interface in java
+> * [Nested Interface in java](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/NestedInterfaceProgram.java)
+> * [Functional Interface in java](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/FunctionalInterface.java)
+> * [Comparator Interface in java,](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/ComparatorInterface.java) [ Program1](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/CIProgram.java)
 
 
