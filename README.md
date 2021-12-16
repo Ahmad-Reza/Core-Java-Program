@@ -37,7 +37,6 @@
 > * [Constructor & Copy in java](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/ConstructorProgram.java)
 > * [Cunstructor Chaining in java](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/ConstructorChaining.java)
 > * [Private constructor and Singleton class](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/SingletonClass.java)
-## *Blocks*
 ## *OOP Concepts*
 > * Classes and Objects in java [theory](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/theory_part/classAndObjects.png) [practical](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/ClassObject.java)
 > * [Inheritence in java](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/InheritenceProgram.java)
