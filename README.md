@@ -51,5 +51,8 @@
 > * [Nested Interface in java](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/NestedInterfaceProgram.java)
 > * [Functional Interface in java](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/FunctionalInterface.java)
 > * [Comparator Interface in java,](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/ComparatorInterface.java) [ Program1](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/CIProgram.java)
+## [*Stream Class*](https://github.com/Ahmad-Reza/Core-Java-Program/blob/master/practical_part/StreamProgram.java)
+
+
 
 
